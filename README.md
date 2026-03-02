@@ -51,6 +51,12 @@ This Project includes usage of the following concepts:
 ## Demo
 **Data derived from the public domain 1927 9th edition of Boericke's Materia Medica and Repertory.**
 
+Database:
+![Database](https://raw.githubusercontent.com/AakashDeshpande-GenAI/RAG_Homeopathic-_medicine-_suggestor/refs/heads/main/Images/Database.png)
+Retreieved Data:
+![Retreieved Data](https://raw.githubusercontent.com/AakashDeshpande-GenAI/RAG_Homeopathic-_medicine-_suggestor/refs/heads/main/Images/Retreived_data.png)
+Generated Retrieved Response:
+![Generated Retrieved Response](https://raw.githubusercontent.com/AakashDeshpande-GenAI/RAG_Homeopathic-_medicine-_suggestor/refs/heads/main/Images/Generated_RAG_response.png)
 
 ## Lessons Learned
 This project was a deep dive into RAG and the practical application of data and RAG by LLMs. A key challenge was ensuring the LLM responses were constrained to the provided knowledge base to prevent hallucination. This project solidified my understanding of building real-world applications with RAG.

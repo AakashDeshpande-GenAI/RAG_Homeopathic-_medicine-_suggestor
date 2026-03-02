@@ -1,0 +1,6 @@
+chromadb==0.6.3
+google
+google-genai==1.7.0
+pandas
+numpy
+ipython

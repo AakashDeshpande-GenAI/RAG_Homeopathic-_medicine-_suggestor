@@ -19,15 +19,11 @@ Exploring the capabilities of modern AI RAG to create specialized data retrieval
 
 ## Features
 This Project includes usage of the following concepts:
- * 1. Parallel Agents - reaserching and formulating prescription
- * 2. Loop Agents - Refining prescription
- * 3. Sequential Agents - execute the aggregated prescription
- * 4. Building the Workflow - How the Agents pause - take Doctor's input - resume.
- * 5. Agent powered by an LLM - Prescriber Agents powered by gemini-2.5-flash-lite.
- * 6. Built-in tools, such as Google Search - Google search for citations
- * 7. Observability: Logging, Tracing, Metrics - Tracing Logs.
- * 8. Long Running Operations (Human In The Loop) - Taking Doctor's approval to prescription.
- * 9. Custom tool for confirmation - confirm_prescription for resuming after Doctor's approva
+ * Data is fed to embeddings database.
+ * Create embeddings database wth ChromaDB
+ * Retrieval: Find relevant documents.
+ * Augmented generation: Answer the question.
+ * Call LLM to generate response based on the RAG database.
 
 ## Technologies Used
 *   Python 3
@@ -38,6 +34,7 @@ This Project includes usage of the following concepts:
 *   Prompting
 *   Provides medicine suggestions based on the data feed
 *   Retrieval-Augmented-Generation (RAG)
+*   ChromaDB
 ## Setup and Usage
 1.  **Clone the repository:**
     ```bash
